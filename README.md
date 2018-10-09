@@ -5,6 +5,6 @@ work with table of vacatrions. Use pandas.
   - use loc
   - use iloc
   - use clices
-  1. wfqw
+  
 
 
