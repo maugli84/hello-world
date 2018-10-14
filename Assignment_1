@@ -1,0 +1,7 @@
+import numpy as np
+import pandas as pd
+df = pd.read_csv ("titanic.csv",index_col = "PassengerId")
+df.Sex.value_counts()
+male   = len(df.Sex[df.Sex =="male"])
+female = len(df.Sex[df.Sex =="female"])
+print(f"{male} {female}")
